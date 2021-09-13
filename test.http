@@ -1,0 +1,12 @@
+POST http://localhost:8080/login 
+content-type: application/json
+
+{
+    "username": "puncharasx",
+    "password": "123456"
+}
+
+###
+GET http://localhost:8080/hello
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2Mjk5NjIzMzYsImlzcyI6IjEifQ.MTd9UgqqAN5tixmkfCkrP5vpzvyjAXxWncQNcBO6pKg
+content-type: application/json
